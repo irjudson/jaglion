@@ -1,3 +1,5 @@
+> **Historical Project** — Written for Apache Pig / Hadoop-era data pipelines. Preserved as a reference for data anonymization techniques; Pig UDFs have since been superseded by Spark and other frameworks.
+
 Data Anonymizing in Hadoop using Pig
 =======
 Jaglion provides data anonymizing capabilities as Pig UDFs. They are extremely useful if PII data from an on premise Hadoop cluster needs to be moved to a cloud based service for processing (e.g. machine learning, Monte Carlo modelling, ...). One possible approach would be to simply remove all PII related data from the dataset. However this is not feasible because in the case of machine learning, the predictive models and its predictions are related to individual customers. 
